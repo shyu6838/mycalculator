@@ -3,6 +3,10 @@
 #include "stack.h"
 #include <string.h>
 
+
+
+int su_hwan;
+
 Stack * create_stack(int initial_size)
 {
 	Stack * s = (Stack *)malloc(sizeof(Stack));

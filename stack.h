@@ -5,6 +5,7 @@
 typedef int Item;
 typedef struct stack {
 Item * contents;
+int global;
 int top;
 int size;
 } Stack;
